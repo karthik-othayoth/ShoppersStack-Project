@@ -9,7 +9,7 @@ import com.aventstack.extentreports.Status;
 
 import generic_Library.BaseTest;
 
-public class SSID_Mens_001 extends BaseTest {
+public class SS_Mens_001 extends BaseTest {
 
 	@Test()
 	public void verify_Mens_Page_Is_Displayed() throws InterruptedException {
