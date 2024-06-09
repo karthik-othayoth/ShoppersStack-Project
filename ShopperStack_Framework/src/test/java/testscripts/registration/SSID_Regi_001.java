@@ -46,7 +46,7 @@ public class SSID_Regi_001 extends BaseTest {
 		test.addScreenCaptureFromPath(utility_Methods.takeScreenshot(driver));
 		
 		
-		//---------------Successful closure of driver--------------//
+		//----------------Successful closure of driver---------------//
 		
 		
 		SignupPage signup_Page = new SignupPage(driver);
