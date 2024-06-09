@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testscript.mens.SSID_Mens_001">
+      <class name="testscripts.login.SSID_Login_005">
         <methods>
           <include name="launchingBrowser"/>
-          <include name="verify_Mens_Page_Is_Displayed"/>
           <include name="performingLogin"/>
           <include name="closingBrowser"/>
           <include name="performingLogout"/>
+          <include name="Verify_That_User_Can_Successfully_Login_With_Valid_Existing_Credentials"/>
           <include name="extentReportSetUp"/>
           <include name="extentReportFlush"/>
         </methods>
-      </class> <!-- testscript.mens.SSID_Mens_001 -->
+      </class> <!-- testscripts.login.SSID_Login_005 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

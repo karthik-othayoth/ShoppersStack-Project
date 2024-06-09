@@ -3,28 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testscripts.login.SSID_Women_001">
+      <class name="testscripts.registration.SSID_Regi_027">
         <methods>
           <include name="launchingBrowser"/>
           <include name="performingLogin"/>
           <include name="closingBrowser"/>
           <include name="performingLogout"/>
           <include name="extentReportSetUp"/>
-          <include name="extentReportFlush"/>
-          <include name="verify_Women_Page_Is_Displayed"/>
-        </methods>
-      </class> <!-- testscripts.login.SSID_Women_001 -->
-      <class name="testscript.mens.SSID_Mens_001">
-        <methods>
-          <include name="launchingBrowser"/>
-          <include name="verify_Mens_Page_Is_Displayed"/>
-          <include name="performingLogin"/>
-          <include name="closingBrowser"/>
-          <include name="performingLogout"/>
-          <include name="extentReportSetUp"/>
+          <include name="Verify_That_User_Is_Able_To_Enter_Valid_Password"/>
           <include name="extentReportFlush"/>
         </methods>
-      </class> <!-- testscript.mens.SSID_Mens_001 -->
+      </class> <!-- testscripts.registration.SSID_Regi_027 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

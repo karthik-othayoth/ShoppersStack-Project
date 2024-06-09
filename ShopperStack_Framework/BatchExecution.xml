@@ -3,8 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testscripts.login.SSID_Women_001"/>
-      <class name="testscript.mens.SSID_Mens_001"/>
+      <class name="testscripts.login.SSID_Login_005"/>
+      <class name="testscripts.registration.SSID_Regi_027"/>
+      <class name="testscripts.forgotpassword.SSID_Forgot_004"/>
+      <class name="testscripts.registration.SSID_Regi_001"/>
+      <class name="testscripts.productpurchase.SSID_ProductPurchase_001"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
