@@ -62,7 +62,7 @@ public class SSID_Regi_027 extends BaseTest{
 	
 		
 		
-		//---------------Successful closure of driver--------------//
+		//----------------Successful closure of driver---------------//
 		
 		
 				
