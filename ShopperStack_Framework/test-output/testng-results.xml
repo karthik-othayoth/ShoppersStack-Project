@@ -1,83 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="13" passed="4" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Execution Started]]>
-    </line>
-    <line>
-      <![CDATA[Chrome Browser Launched]]>
-    </line>
-    <line>
-      <![CDATA[Performing Login]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Account Setting]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Log out]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Login from Homepage]]>
-    </line>
-    <line>
-      <![CDATA[Entering valid existing Email]]>
-    </line>
-    <line>
-      <![CDATA[Entering valid existing Password]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on the Login Button in Login Page]]>
-    </line>
-    <line>
-      <![CDATA[Verify that user can successfully login with valid existing credentials || PASS]]>
-    </line>
-    <line>
-      <![CDATA[Performing Logout]]>
-    </line>
-    <line>
-      <![CDATA[Closing Browser]]>
-    </line>
-    <line>
-      <![CDATA[Chrome Browser Launched]]>
-    </line>
-    <line>
-      <![CDATA[Closing Browser]]>
-    </line>
-    <line>
-      <![CDATA[Chrome Browser Launched]]>
-    </line>
-    <line>
-      <![CDATA[Performing Login]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Account Setting]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Log out]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Login from Homepage]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Forgot Password from Login Page]]>
-    </line>
-    <line>
-      <![CDATA[Entering the Email to Reset Password]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Proceed Button]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Send Reset Link for Shopper]]>
-    </line>
-    <line>
-      <![CDATA[Verify that Password Reset Link is Sent to User Email after clicking on Send Reset Link || PASS]]>
-    </line>
-    <line>
-      <![CDATA[Performing Logout]]>
-    </line>
-    <line>
-      <![CDATA[Closing Browser]]>
     </line>
     <line>
       <![CDATA[Chrome Browser Launched]]>
@@ -107,124 +32,22 @@
       <![CDATA[Closing Browser]]>
     </line>
     <line>
-      <![CDATA[Chrome Browser Launched]]>
-    </line>
-    <line>
-      <![CDATA[Performing Login]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Account Setting]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Log out]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Kids Section]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on a product from Kids Section]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Buy Now from Product Description page without logging in]]>
-    </line>
-    <line>
-      <![CDATA[Verify Clicking on Buy Now Without Logging In Leads To Loginpage || PASS]]>
-    </line>
-    <line>
-      <![CDATA[Performing Logout]]>
-    </line>
-    <line>
-      <![CDATA[Closing Browser]]>
-    </line>
-    <line>
       <![CDATA[Execution Ended]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-06-09T16:56:38 IST" name="Suite" finished-at="2024-06-09T16:59:34 IST" duration-ms="176125">
+  <suite started-at="2024-06-09T17:55:58 IST" name="Default suite" finished-at="2024-06-09T17:56:28 IST" duration-ms="29970">
     <groups>
     </groups>
-    <test started-at="2024-06-09T16:56:38 IST" name="Test" finished-at="2024-06-09T16:59:34 IST" duration-ms="176125">
-      <class name="testscripts.forgotpassword.SSID_Forgot_004">
-        <test-method is-config="true" signature="launchingBrowser(java.lang.String)[pri:0, instance:testscripts.forgotpassword.SSID_Forgot_004@1b7cc17c]" started-at="2024-06-09T16:58:07 IST" name="launchingBrowser" finished-at="2024-06-09T16:58:17 IST" duration-ms="10017" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Chrome Browser Launched]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="performingLogin(java.lang.reflect.Method)[pri:0, instance:testscripts.forgotpassword.SSID_Forgot_004@1b7cc17c]" started-at="2024-06-09T16:58:17 IST" name="performingLogin" finished-at="2024-06-09T16:58:27 IST" duration-ms="10099" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testscripts.forgotpassword.SSID_Forgot_004.Verify_That_Reset_Link_Sent_To_User_Email_After_Clicking_Send_Reset_Link() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Performing Login]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- performingLogin -->
-        <test-method signature="Verify_That_Reset_Link_Sent_To_User_Email_After_Clicking_Send_Reset_Link()[pri:0, instance:testscripts.forgotpassword.SSID_Forgot_004@1b7cc17c]" started-at="2024-06-09T16:58:27 IST" name="Verify_That_Reset_Link_Sent_To_User_Email_After_Clicking_Send_Reset_Link" finished-at="2024-06-09T16:58:41 IST" duration-ms="14423" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Clicking on Account Setting]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Log out]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Login from Homepage]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Forgot Password from Login Page]]>
-            </line>
-            <line>
-              <![CDATA[Entering the Email to Reset Password]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Proceed Button]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Send Reset Link for Shopper]]>
-            </line>
-            <line>
-              <![CDATA[Verify that Password Reset Link is Sent to User Email after clicking on Send Reset Link || PASS]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Verify_That_Reset_Link_Sent_To_User_Email_After_Clicking_Send_Reset_Link -->
-        <test-method is-config="true" signature="performingLogout()[pri:0, instance:testscripts.forgotpassword.SSID_Forgot_004@1b7cc17c]" started-at="2024-06-09T16:58:41 IST" name="performingLogout" finished-at="2024-06-09T16:58:42 IST" duration-ms="794" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Performing Logout]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- performingLogout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testscripts.forgotpassword.SSID_Forgot_004@1b7cc17c]" started-at="2024-06-09T16:58:42 IST" name="closingBrowser" finished-at="2024-06-09T16:58:42 IST" duration-ms="90" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Closing Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-      </class> <!-- testscripts.forgotpassword.SSID_Forgot_004 -->
-      <class name="testscripts.login.SSID_Login_005">
-        <test-method is-config="true" signature="extentReportSetUp()[pri:0, instance:testscripts.login.SSID_Login_005@1623b78d]" started-at="2024-06-09T16:56:38 IST" name="extentReportSetUp" finished-at="2024-06-09T16:56:38 IST" duration-ms="494" status="PASS">
+    <test started-at="2024-06-09T17:55:58 IST" name="Default test" finished-at="2024-06-09T17:56:28 IST" duration-ms="29970">
+      <class name="testscripts.registration.SSID_Regi_001">
+        <test-method is-config="true" signature="extentReportSetUp()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:55:57 IST" name="extentReportSetUp" finished-at="2024-06-09T17:55:58 IST" duration-ms="703" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Execution Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- extentReportSetUp -->
-        <test-method is-config="true" signature="launchingBrowser(java.lang.String)[pri:0, instance:testscripts.login.SSID_Login_005@1623b78d]" started-at="2024-06-09T16:56:38 IST" name="launchingBrowser" finished-at="2024-06-09T16:56:48 IST" duration-ms="9869" status="PASS">
+        <test-method is-config="true" signature="launchingBrowser(java.lang.String)[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:55:58 IST" name="launchingBrowser" finished-at="2024-06-09T17:56:10 IST" duration-ms="12307" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,83 +61,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="performingLogin(java.lang.reflect.Method)[pri:0, instance:testscripts.login.SSID_Login_005@1623b78d]" started-at="2024-06-09T16:56:48 IST" name="performingLogin" finished-at="2024-06-09T16:57:00 IST" duration-ms="12231" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testscripts.login.SSID_Login_005.Verify_That_User_Can_Successfully_Login_With_Valid_Existing_Credentials() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Performing Login]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- performingLogin -->
-        <test-method signature="Verify_That_User_Can_Successfully_Login_With_Valid_Existing_Credentials()[pri:0, instance:testscripts.login.SSID_Login_005@1623b78d]" started-at="2024-06-09T16:57:00 IST" name="Verify_That_User_Can_Successfully_Login_With_Valid_Existing_Credentials" finished-at="2024-06-09T16:57:10 IST" duration-ms="9313" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Clicking on Account Setting]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Log out]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Login from Homepage]]>
-            </line>
-            <line>
-              <![CDATA[Entering valid existing Email]]>
-            </line>
-            <line>
-              <![CDATA[Entering valid existing Password]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on the Login Button in Login Page]]>
-            </line>
-            <line>
-              <![CDATA[Verify that user can successfully login with valid existing credentials || PASS]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Verify_That_User_Can_Successfully_Login_With_Valid_Existing_Credentials -->
-        <test-method is-config="true" signature="performingLogout()[pri:0, instance:testscripts.login.SSID_Login_005@1623b78d]" started-at="2024-06-09T16:57:10 IST" name="performingLogout" finished-at="2024-06-09T16:57:10 IST" duration-ms="371" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Performing Logout]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- performingLogout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testscripts.login.SSID_Login_005@1623b78d]" started-at="2024-06-09T16:57:10 IST" name="closingBrowser" finished-at="2024-06-09T16:57:11 IST" duration-ms="391" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Closing Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="extentReportFlush()[pri:0, instance:testscripts.login.SSID_Login_005@1623b78d]" started-at="2024-06-09T16:59:35 IST" name="extentReportFlush" finished-at="2024-06-09T16:59:35 IST" duration-ms="567" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Execution Ended]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- extentReportFlush -->
-      </class> <!-- testscripts.login.SSID_Login_005 -->
-      <class name="testscripts.registration.SSID_Regi_001">
-        <test-method is-config="true" signature="launchingBrowser(java.lang.String)[pri:0, instance:testscripts.registration.SSID_Regi_001@59662a0b]" started-at="2024-06-09T16:58:42 IST" name="launchingBrowser" finished-at="2024-06-09T16:58:51 IST" duration-ms="9087" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Chrome Browser Launched]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="performingLogin(java.lang.reflect.Method)[pri:0, instance:testscripts.registration.SSID_Regi_001@59662a0b]" started-at="2024-06-09T16:58:51 IST" name="performingLogin" finished-at="2024-06-09T16:59:01 IST" duration-ms="9247" status="PASS">
+        <test-method is-config="true" signature="performingLogin(java.lang.reflect.Method)[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:10 IST" name="performingLogin" finished-at="2024-06-09T17:56:21 IST" duration-ms="11168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -328,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- performingLogin -->
-        <test-method signature="Verify_User_Is_Able_To_See_The_Signup_Page()[pri:0, instance:testscripts.registration.SSID_Regi_001@59662a0b]" started-at="2024-06-09T16:59:01 IST" name="Verify_User_Is_Able_To_See_The_Signup_Page" finished-at="2024-06-09T16:59:05 IST" duration-ms="4389" status="PASS">
+        <test-method signature="Verify_User_Is_Able_To_See_The_Signup_Page()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:21 IST" name="Verify_User_Is_Able_To_See_The_Signup_Page" finished-at="2024-06-09T17:56:27 IST" duration-ms="5307" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on Account Setting]]>
@@ -347,352 +94,28 @@
             </line>
           </reporter-output>
         </test-method> <!-- Verify_User_Is_Able_To_See_The_Signup_Page -->
-        <test-method is-config="true" signature="performingLogout()[pri:0, instance:testscripts.registration.SSID_Regi_001@59662a0b]" started-at="2024-06-09T16:59:05 IST" name="performingLogout" finished-at="2024-06-09T16:59:07 IST" duration-ms="1848" status="PASS">
+        <test-method is-config="true" signature="performingLogout()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:27 IST" name="performingLogout" finished-at="2024-06-09T17:56:28 IST" duration-ms="990" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Performing Logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- performingLogout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testscripts.registration.SSID_Regi_001@59662a0b]" started-at="2024-06-09T16:59:07 IST" name="closingBrowser" finished-at="2024-06-09T16:59:07 IST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:28 IST" name="closingBrowser" finished-at="2024-06-09T17:56:28 IST" duration-ms="144" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="extentReportFlush()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:28 IST" name="extentReportFlush" finished-at="2024-06-09T17:56:28 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentReportFlush -->
       </class> <!-- testscripts.registration.SSID_Regi_001 -->
-      <class name="testscripts.registration.SSID_Regi_027">
-        <test-method is-config="true" signature="launchingBrowser(java.lang.String)[pri:0, instance:testscripts.registration.SSID_Regi_027@4efbca5a]" started-at="2024-06-09T16:57:11 IST" name="launchingBrowser" finished-at="2024-06-09T16:57:27 IST" duration-ms="15984" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Chrome Browser Launched]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="performingLogin(java.lang.reflect.Method)[pri:0, instance:testscripts.registration.SSID_Regi_027@4efbca5a]" started-at="2024-06-09T16:57:27 IST" name="performingLogin" finished-at="2024-06-09T16:57:47 IST" duration-ms="20085" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testscripts.registration.SSID_Regi_027.Verify_That_User_Is_Able_To_Enter_Valid_Password() throws java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#loginBtn"}
-  (Session info: chrome=109.0.5414.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d6a5a295e1694e52ee344046585a28d, findElement {using=id, value=loginBtn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64394/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d6a5a295e1694e52ee344046585a28d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#loginBtn"}
-  (Session info: chrome=109.0.5414.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d6a5a295e1694e52ee344046585a28d, findElement {using=id, value=loginBtn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64394/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d6a5a295e1694e52ee344046585a28d
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-at element_Repository.BasePage.clickOnLoginButton(BasePage.java:157)
-at generic_Library.BaseTest.performingLogin(BaseTest.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performingLogin -->
-        <test-method signature="Verify_That_User_Is_Able_To_Enter_Valid_Password()[pri:0, instance:testscripts.registration.SSID_Regi_027@4efbca5a]" started-at="2024-06-09T16:57:47 IST" name="Verify_That_User_Is_Able_To_Enter_Valid_Password" finished-at="2024-06-09T16:57:47 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#loginBtn"}
-  (Session info: chrome=109.0.5414.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d6a5a295e1694e52ee344046585a28d, findElement {using=id, value=loginBtn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64394/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d6a5a295e1694e52ee344046585a28d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#loginBtn"}
-  (Session info: chrome=109.0.5414.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d6a5a295e1694e52ee344046585a28d, findElement {using=id, value=loginBtn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64394/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d6a5a295e1694e52ee344046585a28d
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-at element_Repository.BasePage.clickOnLoginButton(BasePage.java:157)
-at generic_Library.BaseTest.performingLogin(BaseTest.java:84)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_That_User_Is_Able_To_Enter_Valid_Password -->
-        <test-method is-config="true" signature="performingLogout()[pri:0, instance:testscripts.registration.SSID_Regi_027@4efbca5a]" started-at="2024-06-09T16:57:47 IST" name="performingLogout" finished-at="2024-06-09T16:58:07 IST" duration-ms="20112" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Account settings']"}
-  (Session info: chrome=109.0.5414.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d6a5a295e1694e52ee344046585a28d, findElement {using=xpath, value=//button[@aria-label='Account settings']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64394/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d6a5a295e1694e52ee344046585a28d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Account settings']"}
-  (Session info: chrome=109.0.5414.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '19'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5d6a5a295e1694e52ee344046585a28d, findElement {using=xpath, value=//button[@aria-label='Account settings']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.168, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64394/devtoo..., se:cdpVersion: 109.0.5414.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5d6a5a295e1694e52ee344046585a28d
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
-at element_Repository.BasePage.performLogout(BasePage.java:162)
-at generic_Library.BaseTest.performingLogout(BaseTest.java:92)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:546)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performingLogout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testscripts.registration.SSID_Regi_027@4efbca5a]" started-at="2024-06-09T16:58:07 IST" name="closingBrowser" finished-at="2024-06-09T16:58:07 IST" duration-ms="79" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Closing Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-      </class> <!-- testscripts.registration.SSID_Regi_027 -->
-      <class name="testscripts.productpurchase.SSID_ProductPurchase_001">
-        <test-method is-config="true" signature="launchingBrowser(java.lang.String)[pri:0, instance:testscripts.productpurchase.SSID_ProductPurchase_001@77fbd92c]" started-at="2024-06-09T16:59:07 IST" name="launchingBrowser" finished-at="2024-06-09T16:59:16 IST" duration-ms="9100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Chrome Browser Launched]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="performingLogin(java.lang.reflect.Method)[pri:0, instance:testscripts.productpurchase.SSID_ProductPurchase_001@77fbd92c]" started-at="2024-06-09T16:59:16 IST" name="performingLogin" finished-at="2024-06-09T16:59:26 IST" duration-ms="9863" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testscripts.productpurchase.SSID_ProductPurchase_001.Verify_Clicking_Buy_Now_Without_LoggingIn_Leads_To_Loginpage() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Performing Login]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- performingLogin -->
-        <test-method signature="Verify_Clicking_Buy_Now_Without_LoggingIn_Leads_To_Loginpage()[pri:0, instance:testscripts.productpurchase.SSID_ProductPurchase_001@77fbd92c]" started-at="2024-06-09T16:59:26 IST" name="Verify_Clicking_Buy_Now_Without_LoggingIn_Leads_To_Loginpage" finished-at="2024-06-09T16:59:33 IST" duration-ms="7358" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Clicking on Account Setting]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Log out]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Kids Section]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on a product from Kids Section]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Buy Now from Product Description page without logging in]]>
-            </line>
-            <line>
-              <![CDATA[Verify Clicking on Buy Now Without Logging In Leads To Loginpage || PASS]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Verify_Clicking_Buy_Now_Without_LoggingIn_Leads_To_Loginpage -->
-        <test-method is-config="true" signature="performingLogout()[pri:0, instance:testscripts.productpurchase.SSID_ProductPurchase_001@77fbd92c]" started-at="2024-06-09T16:59:33 IST" name="performingLogout" finished-at="2024-06-09T16:59:34 IST" duration-ms="760" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Performing Logout]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- performingLogout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testscripts.productpurchase.SSID_ProductPurchase_001@77fbd92c]" started-at="2024-06-09T16:59:34 IST" name="closingBrowser" finished-at="2024-06-09T16:59:34 IST" duration-ms="338" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Closing Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-      </class> <!-- testscripts.productpurchase.SSID_ProductPurchase_001 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
