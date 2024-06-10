@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testscripts.registration.SSID_Regi_027">
+      <class name="testscripts.productpurchase.SSID_ProductPurchase_001">
         <methods>
           <include name="launchingBrowser"/>
+          <include name="Verify_Clicking_Buy_Now_Without_LoggingIn_Leads_To_Loginpage"/>
           <include name="performingLogin"/>
           <include name="closingBrowser"/>
           <include name="performingLogout"/>
           <include name="extentReportSetUp"/>
-          <include name="Verify_That_User_Is_Able_To_Enter_Valid_Password"/>
           <include name="extentReportFlush"/>
         </methods>
-      </class> <!-- testscripts.registration.SSID_Regi_027 -->
+      </class> <!-- testscripts.productpurchase.SSID_ProductPurchase_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -33,6 +33,8 @@ public class SSID_ProductPurchase_001 extends BaseTest{
 		Reporter.log("Clicking on Kids Section",true);
 		test.log(Status.INFO,"Kids section is Displayed");
 		
+		Thread.sleep(3000);
+		
 		//Selecting a product from Kids Section
 		KidsPage kids_Page = new KidsPage(driver);
 		kids_Page.getCutiekins_GirlsCasualPolyesterRuffledTop().click();

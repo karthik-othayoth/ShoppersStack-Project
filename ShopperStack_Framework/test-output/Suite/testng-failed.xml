@@ -3,6 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testscripts.login.SSID_Login_005">
+        <methods>
+          <include name="launchingBrowser"/>
+          <include name="performingLogin"/>
+          <include name="closingBrowser"/>
+          <include name="performingLogout"/>
+          <include name="Verify_That_User_Can_Successfully_Login_With_Valid_Existing_Credentials"/>
+          <include name="extentReportSetUp"/>
+          <include name="extentReportFlush"/>
+        </methods>
+      </class> <!-- testscripts.login.SSID_Login_005 -->
       <class name="testscripts.forgotpassword.SSID_Forgot_004">
         <methods>
           <include name="launchingBrowser"/>
@@ -14,6 +25,17 @@
           <include name="extentReportFlush"/>
         </methods>
       </class> <!-- testscripts.forgotpassword.SSID_Forgot_004 -->
+      <class name="testscripts.registration.SSID_Regi_001">
+        <methods>
+          <include name="launchingBrowser"/>
+          <include name="Verify_User_Is_Able_To_See_The_Signup_Page"/>
+          <include name="performingLogin"/>
+          <include name="closingBrowser"/>
+          <include name="performingLogout"/>
+          <include name="extentReportSetUp"/>
+          <include name="extentReportFlush"/>
+        </methods>
+      </class> <!-- testscripts.registration.SSID_Regi_001 -->
       <class name="testscripts.productpurchase.SSID_ProductPurchase_001">
         <methods>
           <include name="launchingBrowser"/>
