@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testscripts.registration.SSID_Regi_001">
+      <class name="testscripts.registration.SSID_Regi_027">
         <methods>
           <include name="launchingBrowser"/>
-          <include name="Verify_User_Is_Able_To_See_The_Signup_Page"/>
           <include name="performingLogin"/>
           <include name="closingBrowser"/>
           <include name="performingLogout"/>
           <include name="extentReportSetUp"/>
+          <include name="Verify_That_User_Is_Able_To_Enter_Valid_Password"/>
           <include name="extentReportFlush"/>
         </methods>
-      </class> <!-- testscripts.registration.SSID_Regi_001 -->
+      </class> <!-- testscripts.registration.SSID_Regi_027 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

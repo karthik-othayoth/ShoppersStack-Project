@@ -23,7 +23,16 @@
       <![CDATA[Clicking on Create Account]]>
     </line>
     <line>
-      <![CDATA[Verify_User_Is_Able_To_See_The_Signup_Page || PASS]]>
+      <![CDATA[Clicking on Password field]]>
+    </line>
+    <line>
+      <![CDATA[Entering the Password]]>
+    </line>
+    <line>
+      <![CDATA[Verify that there is no validation error for Password field]]>
+    </line>
+    <line>
+      <![CDATA[User is able to enter valid password || PASS]]>
     </line>
     <line>
       <![CDATA[Performing Logout]]>
@@ -35,19 +44,19 @@
       <![CDATA[Execution Ended]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-06-09T17:55:58 IST" name="Default suite" finished-at="2024-06-09T17:56:28 IST" duration-ms="29970">
+  <suite started-at="2024-06-09T19:10:19 IST" name="Default suite" finished-at="2024-06-09T19:10:46 IST" duration-ms="27340">
     <groups>
     </groups>
-    <test started-at="2024-06-09T17:55:58 IST" name="Default test" finished-at="2024-06-09T17:56:28 IST" duration-ms="29970">
-      <class name="testscripts.registration.SSID_Regi_001">
-        <test-method is-config="true" signature="extentReportSetUp()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:55:57 IST" name="extentReportSetUp" finished-at="2024-06-09T17:55:58 IST" duration-ms="703" status="PASS">
+    <test started-at="2024-06-09T19:10:19 IST" name="Default test" finished-at="2024-06-09T19:10:46 IST" duration-ms="27340">
+      <class name="testscripts.registration.SSID_Regi_027">
+        <test-method is-config="true" signature="extentReportSetUp()[pri:0, instance:testscripts.registration.SSID_Regi_027@131774fe]" started-at="2024-06-09T19:10:18 IST" name="extentReportSetUp" finished-at="2024-06-09T19:10:19 IST" duration-ms="596" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Execution Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- extentReportSetUp -->
-        <test-method is-config="true" signature="launchingBrowser(java.lang.String)[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:55:58 IST" name="launchingBrowser" finished-at="2024-06-09T17:56:10 IST" duration-ms="12307" status="PASS">
+        <test-method is-config="true" signature="launchingBrowser(java.lang.String)[pri:0, instance:testscripts.registration.SSID_Regi_027@131774fe]" started-at="2024-06-09T19:10:19 IST" name="launchingBrowser" finished-at="2024-06-09T19:10:28 IST" duration-ms="9150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +70,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method is-config="true" signature="performingLogin(java.lang.reflect.Method)[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:10 IST" name="performingLogin" finished-at="2024-06-09T17:56:21 IST" duration-ms="11168" status="PASS">
+        <test-method is-config="true" signature="performingLogin(java.lang.reflect.Method)[pri:0, instance:testscripts.registration.SSID_Regi_027@131774fe]" started-at="2024-06-09T19:10:28 IST" name="performingLogin" finished-at="2024-06-09T19:10:38 IST" duration-ms="9960" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testscripts.registration.SSID_Regi_001.Verify_User_Is_Able_To_See_The_Signup_Page() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void testscripts.registration.SSID_Regi_027.Verify_That_User_Is_Able_To_Enter_Valid_Password() throws java.io.IOException,java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
@@ -75,7 +84,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- performingLogin -->
-        <test-method signature="Verify_User_Is_Able_To_See_The_Signup_Page()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:21 IST" name="Verify_User_Is_Able_To_See_The_Signup_Page" finished-at="2024-06-09T17:56:27 IST" duration-ms="5307" status="PASS">
+        <test-method signature="Verify_That_User_Is_Able_To_Enter_Valid_Password()[pri:0, instance:testscripts.registration.SSID_Regi_027@131774fe]" started-at="2024-06-09T19:10:38 IST" name="Verify_That_User_Is_Able_To_Enter_Valid_Password" finished-at="2024-06-09T19:10:43 IST" duration-ms="5482" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicking on Account Setting]]>
@@ -90,32 +99,41 @@
               <![CDATA[Clicking on Create Account]]>
             </line>
             <line>
-              <![CDATA[Verify_User_Is_Able_To_See_The_Signup_Page || PASS]]>
+              <![CDATA[Clicking on Password field]]>
+            </line>
+            <line>
+              <![CDATA[Entering the Password]]>
+            </line>
+            <line>
+              <![CDATA[Verify that there is no validation error for Password field]]>
+            </line>
+            <line>
+              <![CDATA[User is able to enter valid password || PASS]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_User_Is_Able_To_See_The_Signup_Page -->
-        <test-method is-config="true" signature="performingLogout()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:27 IST" name="performingLogout" finished-at="2024-06-09T17:56:28 IST" duration-ms="990" status="PASS">
+        </test-method> <!-- Verify_That_User_Is_Able_To_Enter_Valid_Password -->
+        <test-method is-config="true" signature="performingLogout()[pri:0, instance:testscripts.registration.SSID_Regi_027@131774fe]" started-at="2024-06-09T19:10:43 IST" name="performingLogout" finished-at="2024-06-09T19:10:45 IST" duration-ms="1985" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Performing Logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- performingLogout -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:28 IST" name="closingBrowser" finished-at="2024-06-09T17:56:28 IST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testscripts.registration.SSID_Regi_027@131774fe]" started-at="2024-06-09T19:10:45 IST" name="closingBrowser" finished-at="2024-06-09T19:10:46 IST" duration-ms="715" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="extentReportFlush()[pri:0, instance:testscripts.registration.SSID_Regi_001@131774fe]" started-at="2024-06-09T17:56:28 IST" name="extentReportFlush" finished-at="2024-06-09T17:56:28 IST" duration-ms="524" status="PASS">
+        <test-method is-config="true" signature="extentReportFlush()[pri:0, instance:testscripts.registration.SSID_Regi_027@131774fe]" started-at="2024-06-09T19:10:46 IST" name="extentReportFlush" finished-at="2024-06-09T19:10:47 IST" duration-ms="554" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Execution Ended]]>
             </line>
           </reporter-output>
         </test-method> <!-- extentReportFlush -->
-      </class> <!-- testscripts.registration.SSID_Regi_001 -->
+      </class> <!-- testscripts.registration.SSID_Regi_027 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
